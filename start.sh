@@ -1,4 +1,4 @@
 FLASK_APP=one-study.py
 FLASK_ENV=development
 
-flask run 
+flask run -h localhost -p 8080  

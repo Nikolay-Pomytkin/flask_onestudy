@@ -1,4 +1,4 @@
-from app import app
+import os
 
 class Config(object):
     SECRET_KEY=os.environ.get('SECRET_KEY') or 'onestudy_secret_key'

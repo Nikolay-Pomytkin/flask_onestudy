@@ -4,8 +4,9 @@ from flask import render_template, redirect
 @app.route('/index')
 @app.route('/')
 def index():
-    return render_template('index.html', title="One-Study", name="Nikolay")
+    user = {'username': 'Nikolay'}
+    return render_template('index.html', title="One-Study", user=user)
 
-@app.route('/login')
+@app.route('/login', methods=['GET', 'POST'])
 def login():
     return render_template('login.html', title="Login")
