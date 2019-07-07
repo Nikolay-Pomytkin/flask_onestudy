@@ -13,4 +13,4 @@ login = LoginManager(app)
 login.login_view = 'login'
 
 # This import must be after app is initialized as the routes use the app Flask instance
-from app import routes, models, errors
+from app import routes, models

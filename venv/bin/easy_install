@@ -1,5 +1,4 @@
 #!/home/ec2-user/environment/flask_onestudy/venv/bin/python3.6
-
 # -*- coding: utf-8 -*-
 import re
 import sys
